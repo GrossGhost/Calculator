@@ -31,7 +31,8 @@
         android:textSize="30sp"
         android:id="@+id/btn_7"
         android:layout_below="@+id/textView"
-        android:layout_alignParentTop="false" />
+        android:layout_alignParentTop="false"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/four"
@@ -41,7 +42,8 @@
         android:id="@+id/btn_4"
         android:layout_below="@+id/btn_plus"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/one"
@@ -51,7 +53,8 @@
         android:id="@+id/btn_1"
         android:layout_below="@+id/btn_4"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/backspace"
@@ -61,7 +64,8 @@
         android:id="@+id/btn_c"
         android:layout_below="@+id/btn_x"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="onClickClear" />
 
     <Button
         android:text="@string/eight"
@@ -71,7 +75,8 @@
         android:id="@+id/btn_8"
         android:layout_below="@+id/textView"
         android:layout_toRightOf="@+id/btn_7"
-        android:layout_toEndOf="@+id/btn_7" />
+        android:layout_toEndOf="@+id/btn_7"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/nine"
@@ -81,7 +86,8 @@
         android:id="@+id/btn_9"
         android:layout_below="@+id/textView"
         android:layout_toRightOf="@+id/btn_8"
-        android:layout_toEndOf="@+id/btn_8" />
+        android:layout_toEndOf="@+id/btn_8"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/plus"
@@ -91,7 +97,8 @@
         android:id="@+id/btn_plus"
         android:layout_below="@+id/textView"
         android:layout_toRightOf="@+id/btn_9"
-        android:layout_toEndOf="@+id/btn_9" />
+        android:layout_toEndOf="@+id/btn_9"
+        android:onClick="onClickOperator" />
 
     <Button
         android:text="@string/five"
@@ -101,7 +108,8 @@
         android:id="@+id/btn_5"
         android:layout_below="@+id/btn_8"
         android:layout_toRightOf="@+id/btn_7"
-        android:layout_toEndOf="@+id/btn_7" />
+        android:layout_toEndOf="@+id/btn_7"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/six"
@@ -111,7 +119,8 @@
         android:id="@+id/btn_6"
         android:layout_below="@+id/btn_9"
         android:layout_toRightOf="@+id/btn_8"
-        android:layout_toEndOf="@+id/btn_8" />
+        android:layout_toEndOf="@+id/btn_8"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/minus"
@@ -121,7 +130,8 @@
         android:id="@+id/btn_minus"
         android:layout_below="@+id/btn_plus"
         android:layout_toRightOf="@+id/btn_9"
-        android:layout_toEndOf="@+id/btn_9" />
+        android:layout_toEndOf="@+id/btn_9"
+        android:onClick="onClickOperator" />
 
     <Button
         android:text="@string/two"
@@ -131,7 +141,8 @@
         android:id="@+id/btn_2"
         android:layout_below="@+id/btn_5"
         android:layout_toRightOf="@+id/btn_4"
-        android:layout_toEndOf="@+id/btn_4" />
+        android:layout_toEndOf="@+id/btn_4"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/three"
@@ -141,7 +152,8 @@
         android:id="@+id/btn_3"
         android:layout_below="@+id/btn_6"
         android:layout_toRightOf="@+id/btn_5"
-        android:layout_toEndOf="@+id/btn_5" />
+        android:layout_toEndOf="@+id/btn_5"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/multiplication"
@@ -151,7 +163,8 @@
         android:id="@+id/btn_x"
         android:layout_below="@+id/btn_minus"
         android:layout_toRightOf="@+id/btn_6"
-        android:layout_toEndOf="@+id/btn_6" />
+        android:layout_toEndOf="@+id/btn_6"
+        android:onClick="onClickOperator" />
 
     <Button
         android:text="@string/zero"
@@ -161,7 +174,8 @@
         android:id="@+id/btn_0"
         android:layout_below="@+id/btn_2"
         android:layout_toRightOf="@+id/btn_1"
-        android:layout_toEndOf="@+id/btn_1" />
+        android:layout_toEndOf="@+id/btn_1"
+        android:onClick="onClickNumber" />
 
     <Button
         android:text="@string/equal"
@@ -171,7 +185,8 @@
         android:id="@+id/btn_equal"
         android:layout_below="@+id/btn_3"
         android:layout_toRightOf="@+id/btn_0"
-        android:layout_toEndOf="@+id/btn_0" />
+        android:layout_toEndOf="@+id/btn_0"
+        android:onClick="onClickEqual" />
 
     <Button
         android:text="@string/divide"
@@ -181,5 +196,6 @@
         android:id="@+id/btn_divide"
         android:layout_below="@+id/btn_x"
         android:layout_toRightOf="@+id/btn_equal"
-        android:layout_toEndOf="@+id/btn_equal" />
+        android:layout_toEndOf="@+id/btn_equal"
+        android:onClick="onClickOperator" />
 </RelativeLayout>

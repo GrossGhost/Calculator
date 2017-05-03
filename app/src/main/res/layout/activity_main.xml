@@ -17,10 +17,11 @@
         android:layout_alignParentTop="true"
         android:background="@android:color/background_light"
         android:gravity="bottom|right"
-        android:maxLength="17"
+        android:maxLength="32"
         android:maxLines="2"
         android:textColor="@android:color/black"
-        android:textSize="56sp" />
+        android:textSize="40sp"
+        android:lineSpacingExtra="30sp" />
 
     <Button
         android:id="@+id/btn_7"
